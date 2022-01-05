@@ -8,6 +8,27 @@ public class Auto
     public string color;
     public int highestSpeed;
 
+    public Auto()
+    {
+        Debug.Log("Auto() kutsuttu");
+    }
+    public Auto(float s)
+    {
+        this.speed = s;
+        Debug.Log("Auto(float) kutsuttu");
+        Debug.Log("Speed = " + s);
+    }
+    public Auto(float s, string c)
+    {
+        this.speed = s;
+        this.color = c;
+        Debug.Log("Auto(float, string) kutsuttu");
+        Debug.Log("Speed = " + s + "  Color = " + c);
+
+    }
+
+
+
     void Move()
     {
         Debug.Log("Moving");

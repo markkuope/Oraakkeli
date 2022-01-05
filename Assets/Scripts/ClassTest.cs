@@ -21,6 +21,8 @@ public class ClassTest : MonoBehaviour
 
         mersu.CarSpeed();
 
+        Auto omaAuto2 = new Auto(4.5f,"Blue");
+
     }
 
     // Update is called once per frame
