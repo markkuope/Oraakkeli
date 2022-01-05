@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Auto
 {
     public float speed;
@@ -43,6 +44,6 @@ public class Auto
         Debug.Log(speed);
     }
 
-
+    
 
 }
