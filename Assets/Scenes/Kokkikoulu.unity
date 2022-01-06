@@ -152,6 +152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e41f544028dbf14b81c0cd27461cf46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  omaAuto:
+    speed: 16
+    color: Green
+    highestSpeed: 36
 --- !u!4 &21688745
 Transform:
   m_ObjectHideFlags: 0

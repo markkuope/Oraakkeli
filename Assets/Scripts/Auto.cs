@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
+[System.Serializable]
 public class Auto
 {
     public float speed;
@@ -44,6 +44,14 @@ public class Auto
         Debug.Log(speed);
     }
 
-    
+    public void PrintCarDetails()
+    {
+        Debug.Log("Speed = " + speed);
+        Debug.Log("Color = " + color);
+        Debug.Log("HighestSpeed = " + highestSpeed);
+    }
+
+
+
 
 }

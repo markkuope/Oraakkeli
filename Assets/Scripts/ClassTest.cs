@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class ClassTest : MonoBehaviour
 {
-    
-
+    public Auto omaAuto;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +25,7 @@ public class ClassTest : MonoBehaviour
 
         //Auto omaAuto2 = new Auto(4.5f,"Blue");
 
-       
+        omaAuto.PrintCarDetails();
 
     }
 
