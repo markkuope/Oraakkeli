@@ -4,5 +4,20 @@ using UnityEngine;
 
 public class Dragon : Enemy
 {
-    
+    public bool attacking = false;
+
+    private void Update()
+    {
+        if (attacking)
+        {
+            Attack();
+            //base.Attack();
+        }
+    }
+
+    //void Attack()
+    //{
+    //    print("Dragon hyökkää");
+    //}
+
 }
