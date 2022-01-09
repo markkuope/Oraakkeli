@@ -6,7 +6,7 @@ public class Dragon : Enemy
 {
     public bool attacking = false;
 
-    private void Update()
+   private void Update()
     {
         if (attacking)
         {
