@@ -139,3 +139,4 @@ Received Import Request.
 Start importing Assets/Scripts/Inheritance using Guid(fb50f4c3ce8e3cf4c8a5c66843cad5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326963e3052b07a4c544b48dcb3d6cad') in 0.008879 seconds 
   Import took 0.010981 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
