@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class StaticTest : MonoBehaviour
-{   
-
+{
+   
     void Start()
-    {          
-
+    {
+       
     }
 
     void Update()
